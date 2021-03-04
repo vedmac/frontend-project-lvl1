@@ -27,10 +27,12 @@
     "readline-sync": "^1.4.10"
   },
   "eslintConfig": {
-  
     "rules": {
       "no-console": "off",
-      "import/extensions": ["error", "always"]
+      "import/extensions": [
+        "error",
+        "always"
+      ]
     }
   }
 }
