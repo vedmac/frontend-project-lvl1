@@ -27,18 +27,15 @@
     "readline-sync": "^1.4.10"
   },
   "eslintConfig": {
-    "parserOptions": {
-      "ecmaFeatures": {
-          "jsx": true,
-          "modules": true
-      }
-  },
     "rules": {
       "no-console": "off",
       "import/extensions": [
         "error",
         "always"
-      ]
+      ],
+      "parserOptions": {
+        "sourceType": "module"
+    }
     }
   }
 }
