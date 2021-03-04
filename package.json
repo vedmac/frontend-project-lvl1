@@ -25,21 +25,5 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "readline-sync": "^1.4.10"
-  },
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaVersion": 2017,
-      "sourceType": "module"
-    },
-    "env": {
-        "es6": true
-    },
-    "rules": {
-      "no-console": "off",
-      "import/extensions": [
-        "error",
-        "always"
-      ]
-    }
   }
 }
