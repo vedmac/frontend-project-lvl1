@@ -27,6 +27,7 @@
     "readline-sync": "^1.4.10"
   },
   "eslintConfig": {
+    "parserOptions": { "sourceType": "module" },
     "rules": {
       "no-console": "off",
       "import/extensions": [
